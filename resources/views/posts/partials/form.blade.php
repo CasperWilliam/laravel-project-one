@@ -9,7 +9,7 @@
 <div class="form-group">
     <label for="content">Content</label>
     <textarea id="content"  class="form-control name="content" id="" cols="30"
-        rows="10">{{ old('content', optional($post ?? null)->content) }}</textarea></div>
+        rows="5">{{ old('content', optional($post ?? null)->content) }}</textarea></div>
 @if ($errors->any())
     <div class="mb-3">
         <ul class="list-group">
